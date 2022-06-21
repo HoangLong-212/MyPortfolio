@@ -1,0 +1,41 @@
+.activity-item {
+  padding: 20px 0 48px 52px;
+  position: relative;
+  font-size: 1.8rem;
+
+  &::after {
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: #159c63;
+    top: 25px;
+    left: 0;
+    transform: translateX(-60%);
+  }
+
+  h2 {
+    font-size: 2.4rem;
+    color: #159c63;
+  }
+
+  p:nth-child(1) {
+    padding-bottom: 16px;
+    font-style: italic;
+    font-weight: 400;
+  }
+
+  p:nth-child(3) {
+    padding-bottom: 8px;
+    font-weight: bold;
+  }
+
+  ul {
+    font-size: 1.6rem;
+    font-weight: 400;
+    padding-left: 35px;
+  }
+}
+
+

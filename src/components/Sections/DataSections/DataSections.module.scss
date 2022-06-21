@@ -1,0 +1,21 @@
+.wrapper {
+  position: relative;
+}
+
+.title {
+  position: relative;
+  margin-left: calc(101 / 1440 * 100%);
+  padding: 28px 0;
+  font-size: 3rem;
+  margin-bottom: 40px;
+}
+
+.title::after {
+  content: "";
+  position: absolute;
+  left: -15px;
+  border-left: 5px solid #159c63;
+  height: 35px;
+  top: 50%;
+  transform: translateY(-50%);
+}

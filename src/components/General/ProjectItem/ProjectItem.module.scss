@@ -1,0 +1,52 @@
+.project-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 90%;
+  margin: 0 auto 68px;
+}
+
+.project-item-img {
+  position: relative;
+  margin: 0 auto;
+  z-index: 1;
+  transition: transform 0.5s;
+
+  img {
+    width: 467px;
+    height: 221px;
+    border: 2px solid #f3f3f3;
+    box-shadow: 0 0 2px rgb(0 0 0 / 30%);
+    transition: transform 0.5s;
+
+    &:hover {
+      transform: scale(1.2);
+    }
+  }
+}
+
+.project-item-content {
+  position: relative;
+  margin: 0 auto;
+
+  h3 {
+    font-size: 2rem;
+    padding-bottom: 4px;
+  }
+
+  p {
+    font-size: 1.6rem;
+  }
+
+  a {
+    font-size: 1.4rem;
+    margin-right: 16px;
+
+    .icon {
+      margin-right: 8px;
+      font-size: 1.6rem;
+      transform: translateY(20%);
+    }
+  }
+}

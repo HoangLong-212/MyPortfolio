@@ -1,0 +1,17 @@
+.wrapper {
+  position: relative;
+  margin-top: 56px;
+  padding-top: calc(664 / 1440 * 100%);
+  background: url("../../../assets/img/background-home.png") top center / cover
+    no-repeat;
+}
+
+.introduce {
+  position: absolute;
+  top: calc(205 / 664 * 100%);
+  left: calc(145 / 1440 * 100%);
+
+  h1 {
+    font-size: 5.2rem;
+  }
+}
