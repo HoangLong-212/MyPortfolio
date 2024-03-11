@@ -38,4 +38,24 @@
   }
 }
 
+// PC & Tablet
+@media (min-width: 739px) {
+}
 
+// Mobile & Tablet
+@media (max-width: 1023px) {
+}
+
+// Tablet
+@media (min-width: 740px) and (max-width: 1023px) {
+  .activity-item {
+    padding: 20px 0 48px 42px;
+  }
+}
+
+// Mobile
+@media (max-width: 739px) {
+  .activity-item {
+    padding: 20px 0 48px 32px;
+  }
+}

@@ -9,13 +9,13 @@ import Footer from "@/components/Features/Footer";
 import DataSections from "./DataSections";
 
 const sections = [
-  { component: Header, id: "Header"},
-  { component: Introduce, id: "Introduce" },
-  { component: StickyBar },
-  { component: AboutMe, id: "AboutMe" },
-  { component: Projects, section: DataSections, title: "Projects", id: "Projects" },
-  { component: Skills, section: DataSections, title: "Skills", id: "Skills" },
-  { component: Activities, section: DataSections, title: "Activities" ,id: "Activities" },
-  { component: Footer, id: "Footer" },
+  { component: Header, id: "Header", display: true },
+  { component: Introduce, id: "Introduce", display: true },
+  { component: StickyBar, display: false },
+  { component: AboutMe, id: "AboutMe", display: true },
+  { component: Projects, section: DataSections, title: "Projects", id: "Projects", display: true },
+  { component: Skills, section: DataSections, title: "Skills", id: "Skills", display: true },
+  { component: Activities, section: DataSections, title: "Activities", id: "Activities", display: true },
+  { component: Footer, id: "Footer", display: true },
 ];
 export { sections };

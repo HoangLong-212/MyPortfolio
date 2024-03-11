@@ -9,14 +9,10 @@ function Footer() {
   return (
     <div className={cx("wrapper")}>
       <div className={cx("footer-container")}>
-        <img src={require("@/assets/img/logo-white.png")} alt="logo" />
+        <img src={require("@/assets/img/logo-white.png")} alt="logo" className={cx("footer-img")} />
         <div className={cx("footer-contact")}>
           <h2>CONTACT</h2>
-          <p>
-            Feel free to get in touch with me. I am always open to discussing
-            new projects, creative ideas or opportunities to be part of your
-            visions.
-          </p>
+          <p>Feel free to get in touch with me. I am always open to discussing new projects, creative ideas or opportunities to be part of your visions.</p>
 
           <p>
             <HiMail className={cx("footer-icon")} />

@@ -13,10 +13,7 @@ function Activities() {
           role: "Event Leader",
           event: "Manh Ghep Moi Campaign 2021",
         }}
-        description={[
-          "Ensure 12 members follow the campaign plan",
-          "Organize successfully 03 activities with the participation of 100 volunteers and attract nearly 1,000 people",
-        ]}
+        description={["Ensure 12 members follow the campaign plan", "Organize successfully 03 activities with the participation of 100 volunteers and attract nearly 1,000 people"]}
       />
 
       <ActivitiesItem
@@ -25,10 +22,7 @@ function Activities() {
           role: "Deputy Head",
           event: "Department of The Volunteer Spring Campaign 2020",
         }}
-        description={[
-          "Make a fundraising plan with the members",
-          "Support members to ensure that plan is right on schedule",
-        ]}
+        description={["Make a fundraising plan with the members", "Support members to ensure that plan is right on schedule"]}
       />
 
       <ActivitiesItem

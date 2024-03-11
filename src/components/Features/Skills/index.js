@@ -5,15 +5,10 @@ import styles from "./Skills.module.scss";
 const cx = classNames.bind(styles);
 function Skills() {
   return (
-    <div
-      className={cx("skills-list")}
-      data-aos="fade-up"
-      data-aos-duration="1000"
-      data-aos-delay="200"
-    >
+    <div className={cx("skills-list")} data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
       <div className={cx("skills-list-item")}>
         <h3>Programming Languages</h3>
-        <ul >
+        <ul>
           <li>JavaScript</li>
           <li>HTML, CSS</li>
           <li>C++</li>
@@ -23,24 +18,24 @@ function Skills() {
       </div>
       <div className={cx("skills-list-item")}>
         <h3>Frameworks & Library</h3>
-        <ul >
+        <ul>
           <li>ReactJS</li>
           <li>Ant Design</li>
         </ul>
         <h3>English</h3>
-        <ul >
+        <ul>
           <li>Basic communication skills</li>
           <li>Have a capability to understand technical materials</li>
         </ul>
       </div>
       <div className={cx("skills-list-item")}>
         <h3>Databases</h3>
-        <ul >
+        <ul>
           <li>SQL Sever</li>
           <li>MongoDB</li>
         </ul>
         <h3>Version Control</h3>
-        <ul >
+        <ul>
           <li>Github</li>
         </ul>
       </div>

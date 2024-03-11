@@ -32,3 +32,58 @@
     transform: translateY(-20px);
   }
 }
+
+// PC & Tablet
+@media (min-width: 739px) {
+}
+
+// Mobile & Tablet
+@media (max-width: 1023px) {
+}
+
+// Tablet
+@media (min-width: 740px) and (max-width: 1023px) {
+  .skills-list {
+    padding: 0px 54px 80px;
+  }
+
+  .skills-list-item {
+    flex-basis: 32%;
+
+    h3 {
+      font-size: 1.6rem;
+      padding: 16px;
+    }
+
+    li {
+      font-size: 1.4rem;
+      margin-left: 40px;
+    }
+  }
+}
+
+// Mobile
+@media (max-width: 739px) {
+  .skills-list {
+    display: flex;
+    padding: 0px 30px 20px;
+    flex-direction: column;
+  }
+
+  .skills-list-item {
+    margin-bottom: 30px;
+    h3 {
+      font-size: 1.6rem;
+      padding: 16px;
+    }
+
+    li {
+      font-size: 1.4rem;
+      margin-left: 60px;
+    }
+
+    &:nth-child(2) {
+      margin-top: 0px;
+    }
+  }
+}

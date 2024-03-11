@@ -51,3 +51,33 @@
     opacity: 0.8;
   }
 }
+
+// PC & Tablet
+@media (min-width: 739px) {
+}
+
+// Mobile & Tablet
+@media (max-width: 1023px) {
+}
+
+// Tablet
+@media (min-width: 740px) and (max-width: 1023px) {
+  .footer-container {
+    padding: 60px 8%;
+  }
+}
+
+// Mobile
+@media (max-width: 739px) {
+  .footer-container {
+    padding: 60px 8%;
+  }
+
+  .footer-img {
+    display: none;
+  }
+
+  .footer-contact {
+    padding-left: 0;
+  }
+}

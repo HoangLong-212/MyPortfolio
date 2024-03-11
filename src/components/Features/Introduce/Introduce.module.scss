@@ -2,16 +2,70 @@
   position: relative;
   margin-top: 56px;
   padding-top: calc(664 / 1440 * 100%);
-  background: url("../../../assets/img/background-home.png") top center / cover
-    no-repeat;
+  background: url("../../../assets/img/background-home.png") top center / cover no-repeat;
 }
 
 .introduce {
   position: absolute;
   top: calc(205 / 664 * 100%);
-  left: calc(145 / 1440 * 100%);
-
+  left: calc(145 / 1440 * 100%); //10.06
   h1 {
     font-size: 5.2rem;
+  }
+}
+
+.img-mobile {
+  display: none;
+}
+
+@media (max-width: 1400px) {
+  .introduce {
+    left: 8%;
+    h1 {
+      font-size: 4.4rem;
+    }
+  }
+}
+
+// PC & Tablet
+@media (min-width: 739px) {
+}
+
+// Mobile & Tablet
+@media (max-width: 1023px) {
+}
+
+// Tablet
+@media (min-width: 740px) and (max-width: 1023px) {
+  .introduce {
+    left: 6%;
+    h1 {
+      font-size: 3.6rem;
+    }
+  }
+}
+
+// Mobile
+@media (max-width: 739px) {
+  .wrapper {
+    background: none;
+    padding-top: 0;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .img-mobile {
+    display: block;
+  }
+
+  img {
+    margin-top: 30px;
+    width: 50vw;
+  }
+
+  .introduce {
+    display: none;
   }
 }
